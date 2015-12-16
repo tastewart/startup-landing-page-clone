@@ -13,6 +13,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+ul,
+menu,
+dir {
+    -webkit-padding-start: 0px;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+
 
 /* div {
     border: 1px solid Chocolate;
@@ -23,6 +31,9 @@ body {
 
 .top-navigation {
     background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
 }
 
 .top-navigation > .content {
@@ -122,4 +133,92 @@ img {
 
 .buttons button:hover {
     background-color: #29F1C1;
+}
+
+.icon-content {
+    /*text-align: center; */
+    overflow: hidden;
+    padding-bottom: 5rem;
+}
+
+.icon-content .content {
+    margin-top: 7.875rem;
+    color: #1d1e21;
+    text-align: center;
+}
+
+.icon-content h2 {
+    font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+}
+
+ul {
+    list-style: none;
+}
+
+.icon-content .icon-list > li {
+    /*text-decoration: none;
+    display: inline-block;
+    padding: 0 7rem; */
+    width: 33.33333%;
+    float: left;
+}
+
+.icon-content .icon-image {
+    height: 127px;
+    width: 127px;
+}
+
+.icon-content .icon-list h3 {
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+}
+
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+}
+
+hr {
+    border-width: 1px 0px 0px;
+    border-style: solid none none;
+    border-color: #eaebec;
+    margin: 1.313rem 0px;
+}
+
+.social .social-icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+
+h5 {
+    display: block;
+    font-size: 0.83em;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: normal;
+}
+
+.social .twitter {
+    color: #55acee;
+}
+
+.social .facebook {
+    color: #4c66a4;
+}
+
+.social .instagram {
+    color: #3f729b;
 }
